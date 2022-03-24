@@ -1,4 +1,4 @@
-My personal Webpack boilerplate for React
+My personal Webpack boilerplate with React, eslint
 ____
 
 #### install deps
