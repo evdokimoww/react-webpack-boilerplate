@@ -33,10 +33,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),  //итоговый бандл
     assetModuleFilename: 'assets/[hash][ext][query]', //складываем ассеты в dist/assets
     clean: true,  //очистка dist перед обновлением бандла
+    publicPath: '/',
   },
 
   devServer: {
     hot: true,  //автоперезагрузка страницы при изменениях
+    historyApiFallback: true,
   },
 
   module: {
